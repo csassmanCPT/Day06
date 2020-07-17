@@ -6,7 +6,7 @@
 /*   By: csassman <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/16 16:05:51 by csassman          #+#    #+#             */
-/*   Updated: 2020/07/16 16:37:19 by csassman         ###   ########.fr       */
+/*   Updated: 2020/07/17 10:26:49 by csassman         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,7 +31,7 @@ void	ft_putstr(char *str)
 int		main(int argc, char **argv)
 {
 	(void)argc;
-	ft_putstr(argv[30] = "ft_print_program_name");
+	ft_putstr(argv[0]);
 	ft_putchar('\n');
 	return (0);
 }
