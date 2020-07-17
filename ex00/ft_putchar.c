@@ -6,10 +6,11 @@
 /*   By: csassman <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/16 09:08:29 by csassman          #+#    #+#             */
-/*   Updated: 2020/07/16 11:45:03 by csassman         ###   ########.fr       */
+/*   Updated: 2020/07/17 10:02:43 by csassman         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include <unistd.h>
+
 void	ft_putchar(char c)
 {
 	write(1, &c, 1);

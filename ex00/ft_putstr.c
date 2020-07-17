@@ -6,17 +6,18 @@
 /*   By: csassman <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/16 09:09:08 by csassman          #+#    #+#             */
-/*   Updated: 2020/07/16 11:53:10 by csassman         ###   ########.fr       */
+/*   Updated: 2020/07/17 10:12:50 by csassman         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+void ft_putchar(char c);
 
 void ft_putstr(char *str) {
-	int i
+	int i;
 	i = 0;
 
-	while(str[i] != '\0') {
+	while(str[i]){
 		ft_putchar(str[i]);
-		i+=1;
+		i++;
 	}
 }
 
